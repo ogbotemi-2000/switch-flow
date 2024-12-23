@@ -1,0 +1,372 @@
+<!DOCTYPE HTML><html><head>
+    <title>Dashboard</title><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="css/tailwind.min.css" data-switch-flow>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/page.css" data-switch-flow>
+    <!-- <link rel="stylesheet" href="css/all.min.css"> -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+    <script src="js/devcycle.min.js" data-switch-flow></script>
+    <script src="js/utils.js" data-switch-flow></script>
+    <script src="js/ripples.js" data-switch-flow></script>
+    <!-- <script type="module" src="test.js"></script> -->
+    
+    
+</head>
+<body class="vh-full">
+    <main class="vh-full" spellcheck="false">
+<div class="w-4/5 mx-auto sm:w-96 h-full flex items-center justify-center"><div class="">This is the singularity unless you "import" a HTML document through <code class=""><i class="fa fa-file-import"></i> I/O <i class="fa fa-file-export"></i></code> in the menu below.<br><br>Otherwise, every other element you will create will come from this element via cloning, subtree modifications and DOM mutations.<br>To begin, click <code class="m-2 inline-block"><i class="text-yellow-700 fa fa-mouse-pointer"></i> select</code>below and select an element on this page, use <kbd class="bg-gray-100 border border-gray-300 rounded-xl inline-block p-2" style="--tw-bg-opacity:0.5" id="keyInput" aria-label="assertive">esc</kbd> to cancel selecting
+<p class="pt-2 border-t mt-2 border-gray-300">Use <code class="m-2"><i class="fa fa-pen-nib"></i> design mode</code> in the menu below to modify texts page-wide and insert HTML rendered as elements where you want</p></div></div>
+</main>
+    <aside id="switchFlow" spellcheck="false">
+        <style>
+          body.toggle-cursor {
+            cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' width='24' viewBox='0 0 576 312' style=' fill: slategrey;background:transparent;%0A'%3E%3Cpath d='M384 64H192C86 64 0 150 0 256s86 192 192 192h192c106 0 192-86 192-192S490 64 384 64zm0 320c-70.8 0-128-57.3-128-128 0-70.8 57.3-128 128-128 70.8 0 128 57.3 128 128 0 70.8-57.3 128-128 128z'%3E%3C/path%3E%3C/svg%3E") 12 12, pointer;
+          }
+.out-in-out {
+                --dur: 2s;
+                --x: -101%;
+                animation: out-in-out var(--dur) ease-in-out forwards;
+            }
+
+            @keyframes out-in-out {
+                from {
+                    transform: translate3d(var(--x), 0px, 0px)
+                }
+
+                to {
+                    transform: translate3d(calc(var(--x) * -1), 0px, 0px)
+                }
+            }
+
+@media (min-width:640px) {
+  .sm\:left-unset {
+    left:unset;
+  }
+  .sm\:top-unset {
+    top:unset;
+  }
+  .sm\:right-unset {
+    right:unset;
+  }
+}
+/* 
+body {
+    font-family: 'Roboto', sans-serif;
+} */
+
+.\[\&\>\*\]\:font-inherit > * {
+  font: inherit;
+}
+.\[\&\>\*\]\:text-current > * {
+  color: currentColor;  
+}
+.bg-near-black {
+    background:#282828;
+}
+body.select-f098d3d3, body.select-f098d3d3 *:not(aside#switchFlow *):hover {
+    transition: 0s;
+    cursor: pointer;
+    border: 2px dashed rgb(167 50 20 / 60%);
+    background: rgb(167 50 20 / 6%);
+}
+
+</style>
+<aside class="absolute inset-0 pointer-events-none z-10"></aside>
+
+        <canvas class="bottom-0 pointer-events-none invisible absolute" id="grid-canvas" height="8" width="8"></canvas>
+
+
+        <nav class="z-3 w-full bottom-0 fixed [&>*]:align-bottom text-black [&>*]:inline-block sm:text-center pb-5">
+            <aside class="bg-gradient-to-br backdrop-filter backdrop-blur from-yellow-200 via-transparent to-white inline-block sm:left-unset left-0 mx-3 tooltip no-hover no-focus no-focus-within absolute text-left bottom-full rounded-xl" style="--tw-bg-opacity:calc(var(--bg-opacity-pad) + 0.9); z-index:auto">
+    <button class="shadow ripple right-0 bg-white z-1 -mb-7 absolute bottom-full fa fa-times p-5 px-8 rounded-bl-3xl rounded-tr-3xl" onclick="let pN=Abbr.to(this,'pN'); Abbr.to(pN,'cL').remove('show'), [].find.call(pN.children, e=>e.classList.contains('show'))?.classList.replace('show','absolute')"></button>
+<!--select-->
+<section class="inline-block rounded-inherit tooltip no-hover no-focus within slide-y p-4 absolute" ontransitionend="let elm = clones[0].cloneNode(!0), aside =this.querySelector('aside'), pre = this.querySelector('main > section > pre'), form=elm.querySelector('form'), ev=event, tgt=ev.target; ev.bubbles=ev.cancelBubble=false, ev.stopPropagation(); if(tgt===this&&Abbr.to(this,'cL').contains('show')&&ev.propertyName==='transform'&&page.$0) { Abbr.to(aside,'cL').add('show'); let { nodeName, attributes } = page.$0; requestAnimationFrame(_=>{ setTimeout(_=>Abbr.to(aside,'cL').remove('show'), !page.traversing * 600); if(page.traversing) return (page.traversing=false); elm.querySelector('input').value = nodeName.toLowerCase(), /*append form to page for proper behaviour before using its submit callback to add attributes to the UI*/pre.replaceWith(elm), animations.addRippleAnimations(elm), slice(attributes).forEach(obj=>{  form.attr.value=obj.name, form.add.click() }), Abbr.to(elm, ['lEC','pES']).textContent = `\x22textContent\x22:\x22${page.$0.textContent}\x22` }) }"><code>page.</code><button class="shadow border-gray-300 border-2 ripple font-mono rounded-lg rounded-tl-3xl mr-4 mb-2 p-3 text-2xl inline-block relative" style="overflow: visible;" onclick="Abbr.to(page.$0, 'cL').toggle?.call(page.$0.classList, 'select-f098d3d3'), page.$0.classList&&Abbr.to(this,'cL').toggle('bg-yellow-500')">$0<i class="p-2 bg-yellow-200 w-64 tooltip to-right absolute text-sm" style="--arrow-size:8px">click to toggle highlighting element</i></button>
+<code class="[&>*]:relative [&>*]:p-2 mb-2 inline-block" onclick="let el=Abbr.to(this,{2:'nES'}), t=event.target, i=[].indexOf.call(this.children, t); if(t.tagName!=='BUTTON') return; [t, this.querySelector('.border')].forEach(e=>Abbr.to(e,'cL').toggle('border')), [el.children[i], el.querySelector('section.show')].forEach(e=>e&&['show', 'absolute'].forEach(cls=>Abbr.to(e,'cL').toggle(cls)))"><button class="sm:rounded-l-full ripple border-current border">Mutate DOM node</button><button class="ripple border-current">Traverse the DOM</button><button class="ripple border-current sm:rounded-r-full">Manage DOM node(s)</button></code>
+
+<aside class="absolute items-center flex justify-center rounded-xl bg-white no-hover no-focus no-focus-within tooltip inset-0" style="--tw-bg-opacity:0.7"><i class="inline-block dots-6"></i></aside>
+<main class="text-sm w-full relative">
+<section class="w-full inset-0 slide-y tooltip no-hover no-focus no-focus-within inline-block show" style="max-height:30vh; overflow-x:hidden; overflow-y:scroll"> <code>(nodeName<span class="inline-block relative"><button class="ml-1 fa fa-cog text-sm p-2 border border-current inline-block rounded-full"></button>
+<div class="pt-0 -left-16 sm:w-96 sm:-left-full leading-5 w-60 text-sm tooltip absolute p-3 rounded-lg bg-yellow-100 shadow" style="--arrow-size:5px;"><button class="rounded-tl-lg mb-1 rounded-br-xl -ml-3 relative bg-white p-3 border border-gray-300" style="--tw-bg-opacity:0.7" onclick="Abbr.to(this, {6:'pN'}).querySelector('code button:last-child').click()">Edit nodeName options</button>
+<span class="mr-1 rounded-full border-current border inline-block px-1.5">!</span>Attribute modifications automatically reflect
+<hr class="border-yellow-300 my-2"><label class="my-3 items-center switch" style="--slider-checked-color:gray;--switch-size:14px;display:inline-flex;width:auto" role="button"><input type="checkbox" oninput="page.flags[0]=this.checked" checked=""><span class="slider" style="width:var(--switch_width);"></span><span class="ml-7 font-sans inline-block">Replace node when provided nodeName is different and valid on input</span></label><hr class="border-yellow-300 my-2"><label class="mb-2 items-center switch" style="--slider-checked-color:gray;--switch-size:14px;display:inline-flex;width:auto" role="button"><input type="checkbox" oninput="page.flags[1]=this.checked"><span class="slider" style="width:var(--switch_width);"></span><span class="ml-7 font-sans inline-block">Apply provided `{keys: values}` to node on input</span></label></div></span>, [attributes], { keys: "values" })</code>
+<pre class="mt-2 whitespace-pre-wrap" oninput="let code = page.asText(this, (n, r, nx)=>{
+  r = n.tagName!=='BUTTON'&&n.tagName!=='A'&&n.tagName!=='FORM'&&n.parentNode.tagName!=='FORM'?(n.textContent||n.value||n.data||'').trim():'';
+  return n.tagName||(n.data||'').trim().length<3?r:''
+}); !event.target.name&&event.data; //console.log('::EVENT::', event, code)"><span class="text-pink-500">mutateNode(</span>"<input type="text" class="p-1 bg-transparent border-b border-current text-red-500" value="input" size="6" list="nodes">"<span class="text-2xl align-bottom inline-block">,</span> <strong class="font-fredoka">[</strong><a class="mb-2 hover:bg-blue-100 inline-block ml-2 text-xs p-2 border-l-2 border-r-2 border-gray-600 relative" href="javascript:void(0)"><i class="fa fa-plus"></i> manage attributes <i class="fa fa-minus"></i><form class="absolute rounded-lg border border-gray-400 text-left tooltip bg-white p-2" style="--arrow-size: 5px;" onsubmit="event.preventDefault(); let attr=this.attr.value, _ctx=Abbr.to(this,['pN',{2:'nES'}]), ctx; Abbr.to(ctx=_ctx.cloneNode(true), 'fEC').textContent=attr, ctx.className = ctx.className.replace(/__[^\s]+\s*/, '').trim(), Abbr.to(ctx,'cL').add('__'+attr), Abbr.to(ctx, 'lEC').setAttribute('data-placeholder', attr==='class'?'space-separated CSS selector classes present in the CSS frameworks':'left to your discretion'), page.$0&&(Abbr.to(ctx, 'lEC').textContent=page.$0.getAttribute(attr)), Abbr.to(this,{3:'pN'}).querySelector('.__'+attr) ? _ctx.replaceWith(ctx) : _ctx.after(ctx)">Attribute name
+<input class="mt-1 inline-block p-2 mb-2 bg-transparent border-b border-gray-400" type="text" placeholder="lowercase of attribute name" required="" name="attr">
+<button class="h-14 ripple absolute right-0 bottom-0 mr-2 p-3 border-l border-gray-500 border-r" onclick="let ctx=Abbr.to(this, {3:'pN'}); if(ctx.querySelectorAll('[class*=__]').length==1) return; ctx.querySelectorAll('.__'+Abbr.to(this,'pES').value).forEach(e=>e.remove())" type="button">remove</button><button class="ripple relative -ml-2 border border-l-0 p-3 rounded-r-full border-current bg-gray-200 px-5" name="add"> add </button>
+</form></a><br><span class="text-sm inline-block __class">{ name: "<span class="word-break align-middle  w-16 inline-block text-yellow-800">class</span>", value: "<div class="w-52 border-black border-b inline-block px-1 py-2 text-blue-800" contenteditable="true" data-placeholder="space-separated CSS selector classes present in the CSS frameworks" oninput="let attr=Abbr.to(this,['pES','tC']); page.$0.setAttribute?.call(page.$0, attr, Abbr.to(this,'tC'))"></div>"},</span>
+ <strong class="font-fredoka">]</strong><span class="text-2xl align-bottom inline-block">,</span> {
+<div class="bg-white ml-1 p-2 text-sm rounded-lg" contenteditable="true" data-placeholder="for keys and values present on HTML elements as objects i.e textContent" spellcheck="false" style="--tw-bg-opacity:0.4" oninput="if(!page.flags[1]) return; let obj = parse('{'+Abbr.to(this,'tC')+'}'); if(obj) Object.keys(obj).forEach(key=>page.$0[key]=obj[key])">"textContent":" I/O "</div>}<span class="text-pink-500">)</span></pre></section><section class="inset-0 -slide-y inline-block tooltip no-hover no-focus no-focus-within absolute" style="max-height:30vh; overflow-x:hidden; overflow-y:scroll"><details class="mb-2">
+<summary class="cursor-pointer text-sm mb-2"> View samples and perks of the node traversal approach below
+</summary>
+<p class="my-3 ml-2 text-sm"><code class="font-semibold">Abbr.to(page.$0, [{"2":"pN"}, "fC","", ])</code> navigates to the first child, either text or element, of the parent two levels above <code>page.$0</code></p><p class="mb-2 ml-2 text-sm"><code class="font-semibold">Abbr.to(page.$0, "nES")</code> navigates to the nextElementSibling of <code>page.$0</code></p>
+<span class="inline-block border font-black border-gray-700 px-2 rounded-full">!</span> The traversal below returns the last defined node, <button class="ripple relative mb-2 border border-gray-300 rounded-xl p-3" onclick="let trv=page.traversed; trv&&(Abbr.to(trv, 'cL').toggle?.call(trv.classList, 'select-f098d3d3'), trv.classList&&Abbr.to(this,'cL').toggle('bg-yellow-300'))">highlight node</button> or view <code>page.traversed</code> in the console to be sure</details>
+<code>page.$0</code><div class="inline-block relative">
+<button class="align-middle ripple relative px-3 mx-2 border-gray-300 rounded-xl border-2 inline-block bg-gray-100 p-1.5 font-mono text-4xl font-semibold" onclick="this.textContent = this.textContent==='='?(page.$0=page._$0, '≠'):(page.traversed&&(page.$0 = page.traversed), '=')">≠</button>
+<div class="border-gray-300 rounded-xl border w-36 bg-white absolute text-sm font-normal p-2 tooltip to-bottom" style="--arrow-size:5px">Click to toggle setting <code>page.$0</code> as <code>page.traversed</code> - the node traversed to</div></div>
+
+<code class="inline-block">Abbr.to(page.$0, <div class="text-sm text-center w-28 p-1 font-mono inline-block border-b border-current bg-transparent px-2" contenteditable="true" data-placeholder="args" oninput="let res, pN=Abbr.to(this,'pN'), tC=Abbr.to(pN,'tC'); if((res = parse(this.textContent)) == void 0) return; console.log('::TRAVERSED NODE::', page.traversed = Abbr.to(page.$0, res)), Abbr.to(pN,[{2:'nES'},'fEC']).textContent = tC">""</div>)</code><hr class="border-0 h-px bulge-center my-2 mx-auto w-1/2 text-yellow-600"><form class="md:pr-3 my-1 flex-wrap relative items-end inline-flex" onsubmit="event.preventDefault(), document.querySelector('aside>nav>div a').click(), page.traversing=!0">
+<span class="w-44 text-sm font-mono rounded-xl border border-gray-200 p-2 bg-yellow-50 inline-block z-1">Abbr.to(page.$0, "")</span>
+
+<span class="rounded-full p-1 pb-2 z-1"><span class="text-5xl">.</span><input class="placeholder-gray-700 text-sm ml-1 font-mono bg-transparent p-1 border-b border-gray-500" list="domMethods" size="12" required="" name="method" placeholder="DOM Methods"><code class="md:inline hidden text-lg font-semibold">(</code></span>
+<div class="mt-2 md:mt-2 md:transform-none -translate-y-1/2 flex-1">
+<button class="ripple relative md:p-3 px-6 bg-yellow-200 p-4 relative"><i class="text-yellow-700 fa fa-mouse-pointer"></i> select</button><hr class="w-1 sm:mx-2 md:w-auto m-2 sm:block md:inline-block align-bottom bg-black p-0.5 rounded-full inline-block"><label class="items-center toggle-wrapper switch" style="--slider-checked-color:gray;--switch-size:14px;display:inline-flex;width:auto" role="button"><input type="checkbox"><div class="show ml-7 relative duration-300 ease-out md:mb-1 md:bottom-0 md:right-0 p-1 px-1.5 text-sm tooltip flex rounded border border-gray-300 items-center justify-center text-current" data-details="[inactive]"><br><hr class="border-dashed mx-1 border-0 border-l-2 py-3 border-gray-700"> cloneNode(<div class="text-black border-current border-b text-center mx-0.5 p-1 px-4" data-placeholder="" onclick="setTimeout(_=>this.focus(), 60)" spellcheck="false" contenteditable="true"><br></div>)</div><span class="slider" style="width:var(--switch_width);"></span></label></div><code class="md:inline hidden z-2 text-xl md:mb-0.5 sm:mb-5 sm:right-0 bottom-1/3 md:right-1 font-semibold sm:bottom-2 absolute right-3">)</code></form>
+<br><button class="mt-5 sm:mt-4 mr-4 bg-gray-200 ripple relative md:p-3 px-4 p-3" onclick="let nodes=[page.traversed, page.node], el=Abbr.to(this,{2:'pES'}), mthd=el.method.value; el.querySelector('label input').checked&&(nodes[1]=nodes[1]?.cloneNode(Abbr.to(el.querySelector('label div'),'tC'))); if(!mthd&&nodes.filter(e=>e).length!==nodes.length) return; Abbr.to(el,'cL').contains('flex-row-reverse')&&nodes.reverse(), nodes[0][mthd](nodes[1])"><i class="text-current fa fa-bolt"></i> call DOM method</button><button class="mt-2 rounded-xl border-2 border-gray-300 ripple relative px-6 p-3" onclick="let el=Abbr.to(this,{3:'pES'}); Abbr.to(el,'cL').toggle('flex-row-reverse'), el.querySelector('.md\\:transform-none').classList.toggle('transform'), Abbr.to(el.querySelector('.md\\:transform-none hr'),'cL').toggle('inline-block')"><i class="fa fa-arrow-left"></i> swap positions <i class="fa fa-arrow-right"></i></button></section><section class="p-2 pb-5 inset-0 inline-block tooltip no-hover no-focus no-focus-within absolute" style="max-height:30vh; overflow-x:hidden; overflow-y:scroll">
+    <code class="bg-yellow-50 inline-block rounded-xl">
+<button class="z-10 relative ripple border border-gray-300 p-3 rounded-inherit bg-yellow-100" style="--tw-bg-opacity: 0.8;">Valid nodeName options</button>
+<div class="left-0.5 top-0.5 border-gray-300 border pt-14 right-2 p-3 rounded-inherit absolute tooltip bg-inherit" contenteditable="true">input, base, pre, p, span, a, link, code, kbd, div, form, button, iframe, fieldset, figure, figcaption</div></code><br>
+<h4 class="mt-3 mb-1 text-base">Rapid cloning</h4><strong class="text-2xl mr-1">(</strong><code class="text-base">page.</code><code class="inline-block" onclick="let t=event.target; if(t.tagName!=='BUTTON') return; [t, this.querySelector('.border-b')].forEach(e=>Abbr.to(e,'cL').toggle('border-b')), Abbr.to(this,'pN').querySelector('code.pointer-events-none').textContent = 'page.'+t.textContent"><span class="text-2xl">[</span><button class="rounded-br-lg w-20 p-2 text-base ripple relative border-current border-r">$0</button><button class="rounded-bl-lg ml-2 p-2 text-base ripple relative border-current border-l border-b">traversed</button><span class="text-2xl">]</span></code>.<code>cloneNode</code>(<input class="bg-transparent border-b border-current p-2" size="2" placeholder="truthy">)
+<strong class="text-2xl mr-1">)</strong>X
+<input type="number" class="bg-transparent p-2 border-t border-b border-current w-14 mx-2" value="1">
+<button class="m-2 bg-yellow-300 p-3 rounded-lg ripple relative font-semibold" onclick="console.log('::BUTTON::', [Abbr.to(this,'pN').querySelector('code button.border-b').textContent])">clone side by side</button><hr class="my-1">
+<h4 class="mt-2 mb-1 text-base">Nodes storage</h4><p class="mb-2">Store, update and retrieve nodes from <code>localStorage</code></p>
+Reflects choice above: <button class="text-sm bg-gray-100 ripple relative rounded-xl p-3 border-2 border-gray-300" onclick="let el=Abbr.to(this,'nES'), msg = store(this.textContent.split('.')[1]); if(!msg) return; Abbr.to(el,'cL').add('show'), Abbr.to(el,'fC').data=msg, Abbr.to(el, ['fEC','cL']).add('out-in-out')">store: <code class="rounded-inherit pointer-events-none inline-block p-2 border border-dashed border-current">page.traversed</code></button>
+<span class="overflow-hidden tooltip no-hover no-focus slide-y inline-block p-2 relative">Element exists in storage, updating its metadata stored at index 1<hr class="bottom-0 bulge-center p-px absolute left-0 right-0 transform-gpu -translate-x-full" style="--dur:10s;" onanimationend="Abbr.to(this,'cL').remove('out-in-out'), Abbr.to(this,['pN','cL']).remove('show')">
+</span></section>
+</main>
+</section><!--design mode-->
+<section class="absolute text-sm tooltip no-hover no-focus within -slide-y rounded-inherit p-4"><h4 class="text-base">Design Mode</h4>
+<p class="text-sm mb-1">This mode makes all the text on the page editable</p> <code onclick="event.target===this&&Abbr.to(this,'fEC').click()" class="cursor-pointer mb-2 inline-block">document.designMode = <label class="duration-500 top-0 ease-out align-middle toggle-wrapper switch z-1 affix" style="--slider-checked-color:gray; --switch-size:15px; " role="button"><input type="checkbox" name="pooled" oninput="document.designMode=this.checked?'on':'off'">
+<span class="slider"></span></label></code>
+<textarea class="w-full block font-mono placeholder-gray-600 border-gray-200 p-3 rounded-2xl border-2 bg-white" style="--tw-bg-opacity:0.2;" placeholder="Activate designMode, click on an element on the page and paste the HTML code you want to insert there here" rows="8"></textarea><span class="inline-block border-2 font-black border-gray-600 px-2 rounded-full mr-2 mt-3">!</span>Provide markup for standalone UI snippets. You can find some at <br><a href="https://tailwindui.com/components/preview" target="_blank" class="border-b border-current inline-block px-2 font-semibold">Tailwind UI ↗</a>
+</section><!--design space grid-->
+<section class="text-black absolute text-sm tooltip no-hover no-focus within -slide-y rounded-inherit p-4">
+<h3 class="w-full text-base font-semibold text-gray-500">Edit Layout Grid</h3><main class="space-y-2 [&>*]:align-bottom [&>*]:inline-block font-mono" oninput="setTimeout(_=>Grid(),60)">
+<span class="text-base">Grid pattern: </span><input class="placeholder-gray-700 rounded-xl bg-white ml-2 mr-4 text-xl text-lg font-black shadow border-yellow-600 border-r-2 bg-transparent p-2 text-center border-l-2" size="1" value="." style="--tw-bg-opacity:0.4" oninput="Grid.pattern=this.value" placeholder="."><div>Spacing:<input class="w-16 ml-2 border-current border bg-transparent rounded-l-2xl text-base p-1 text-center border-r-0" value="8" oninput="window['grid-canvas'].height=window['grid-canvas'].width=this.value" type="number"></div><strong class="mx-2 py-2">px</strong><div><input class="w-16 mr-2 border-current border bg-transparent rounded-r-2xl text-base p-1 text-center border-l-0" size="1" value="12" type="number" oninput="Grid.size=this.value">:Thickness</div>
+</main>
+<aside class="font-sans my-3">You can get creative by providing any of <code class="font-semibold rounded-lg inline-block border border-gray-300 p-2">+, |, _</code> above as patterns to cater for vertical or horizontal lines</aside><aside class="font-sans my-3"><i class="fa fa-exclamation-circle mr-1"></i>You can remove the layout grid by reducing the values above to near zero</aside></section>
+<!--assets-->
+<section class="text-sm tooltip no-hover no-focus within absolute p-5">
+    <h4 class="text-lg">External stylesheets</h4>
+</section>
+<section class="sm:flex [&>*]:inline-block text-black absolute text-sm tooltip no-hover no-focus within p-5">
+    <section class="sm:w-60 mb-3 mr-5">
+        <h3 class="mt-3 text-lg font-semibold">Import</h3><p>Provide HTML markup via a file upload</p><button class="mt-2 border border-gray-300 px-5 ripple relative p-3 bg-white rounded-md" style="--tw-bg-opacity:0.8" onclick="this.firstElementChild.click()"><input class="absolute hidden pointer-events-none" type="file" accept=".png,.webp,.avif,.jpg,.jpeg"><i class="fa fa-upload text-sm mr-2" style=""></i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">upload from device</font></font></button><p class="sm:w-68 mt-2"><i class="fa fa-exclamation-circle text-base"></i> For best results, upload HTML files that fetch their visual and styling assets from the internet </p>
+
+    </section>
+<section class="md:w-96">
+        <h3 class="mt-3 text-lg font-semibold">Export</h3><p class="mb-3">Preview web page with evaluations, specify how to treat the flagged parts of the UI</p><a class="ripple relative text-sm text-center bg-gray-100 shadow rounded-xl border-2 border-gray-300 px-8 inline-block p-8" target="_blank" style="--tw-bg-opacity:0.4" href="javascript:void(0)">
+    <code class="pointer-events-none block text-xl">Export</code>
+preview • download
+<i class="bg-gray-200 p-2.5 fa fa-external-link-alt absolute bottom-0 right-0"></i>
+</a>
+
+    <a class="ripple relative text-sm text-center bg-gray-100 shadow rounded-xl border-2 border-gray-300 px-8 inline-block p-8" style="--tw-bg-opacity:0.4" href="javascript:void(0)">
+    <code class="pointer-events-none block text-xl">save</code>
+store • resume
+<i class="bg-gray-200 p-2.5 fa fa-download absolute bottom-0 right-0"></i>
+</a></section></section></aside>
+
+<div id="growShrink" class="sm:text-sm rounded-full font-semibold ml-1" data-classname="relative">
+            <div style="--px:0.5em; --py:0.5em; --tw-bg-opacity:calc(var(--bg-opacity-pad) + 0.01)" class="bg-yellow-100 [&>*]:align-middle rounded-inherit [&>*]:rounded-inherit inline-block [&>*]:p-xy backdrop-filter backdrop-blur p-1 lg:p-3 sm:p-2 cursor-pointer" onclick="let q=s=>this.querySelectorAll(s), el=Abbr.to(this,['pN','pES']), all=q('a'), cls='bg-yellow-500', txt, a = [].slice.call(event.composedPath(), 0, 3).find(e=>e.tagName==='A'), i; if(!a) return; i=+a.getAttribute('data-i'), el.children[0].click()/*reset shown sections*/, i&&(Abbr.to(el,'cL').add('show'), Abbr.to(el.children[i+1],'cL').replace('absolute','show')), all=[].filter.call(all, e=>e.textContent===a.textContent), [...q('a.'+cls), ...all].forEach(el=>el&&Abbr.to(el, 'cL').toggle(cls))">
+<a class="hover:bg-yellow-600 relative" onclick="let el = Abbr.to(this,[{2:'pN'},'pES']); bodyCls.add('select-f098d3d3'), page.selected().then(_=>{ Abbr.to(el,'cL').add('show'), Abbr.to(el.children[1].querySelector('aside'),'cL').add('show'), Abbr.to(el.children[1],'cL').replace('absolute','show') })" data-i="0"><div class="out decorate inset-0 absolute tooltip" style="z-index: auto"><div class="bg-yellow-500 inset-0 absolute p-0 rounded-full duration-300 ease-out" style="--tw-bg-opacity: 0.5; --tw-scale-x:1.2; --tw-scale-y:var(--tw-scale-x);"></div></div><span class="mx-2 relative"><i class="text-yellow-700 fa fa-mouse-pointer"></i> select</span></a><span></span><a class="hover:bg-yellow-600 relative fluid base:show" data-i="1"><div class="out decorate inset-0 absolute tooltip" style="z-index: auto"><div class="bg-yellow-500 inset-0 absolute p-0 rounded-full duration-300 ease-out" style="--tw-bg-opacity: 0.5; --tw-scale-x:1.2; --tw-scale-y:var(--tw-scale-x);"></div></div><span class="relative"><i class="fa fa-pen-nib"></i> design mode</span></a><span class="sm:relative absolute"></span><a class="hover:bg-yellow-600 relative fluid sm:show" data-i="2" onclick="Grid()"><div class="out decorate inset-0 absolute tooltip" style="z-index: auto"><div class="bg-yellow-500 inset-0 absolute p-0 rounded-full duration-300 ease-out" style="--tw-bg-opacity: 0.5; --tw-scale-x:1.2; --tw-scale-y:var(--tw-scale-x);"></div></div><span class="relative"><i class="fa fa-th"></i>  Npx grid</span></a><span class="md:relative absolute"></span><a class="fluid md:show hover:bg-yellow-600" data-i="3"><div class="out decorate inset-0 absolute tooltip" style="z-index: auto"><div class="bg-yellow-500 inset-0 absolute p-0 rounded-full duration-300 ease-out" style="--tw-bg-opacity: 0.5; --tw-scale-x:1.2; --tw-scale-y:var(--tw-scale-x);"></div></div><span class="relative"><i class="fa fa-font"></i><i class="fa fa-project-diagram"></i> assets</span></a><span class="md:relative absolute"></span><a class="fluid lg:show hover:bg-yellow-600 bg-yellow-500" data-i="4"><div class="out decorate inset-0 absolute tooltip" style="z-index: auto"><div class="bg-yellow-500 inset-0 absolute p-0 rounded-full duration-300 ease-out" style="--tw-bg-opacity: 0.5; --tw-scale-x:1.2; --tw-scale-y:var(--tw-scale-x);"></div></div><span class="relative"><i class="fa fa-file-import"></i> I/O <i class="fa fa-file-export"></i></span></a>
+            <div class="text-center lg:absolute lg:invisible relative">
+                <button class="hover:bg-gray-300 ripple relative text-current" style="border-color: currentcolor;">•••</button>
+                <div style="padding:0px; --tw-bg-opacity:calc(var(--bg-opacity-pad) + 0.7)" class="border border-gray-400 text-sm bg-white sm:bottom-0 bottom-full backdrop-filter backdrop-blur"><div class="relative"><a class="hover:bg-yellow-600 relative" data-i="2" onclick="Grid()"><div class="out decorate inset-0 absolute tooltip" style="z-index: auto"><div class="bg-yellow-500 inset-0 absolute p-0 rounded-full duration-300 ease-out" style="--tw-bg-opacity: 0.5; --tw-scale-x:1.2; --tw-scale-y:var(--tw-scale-x);"></div></div><span class="relative"><i class="fa fa-th"></i>  Npx grid</span></a><a class="hover:bg-yellow-600 relative" data-i="3"><div class="out decorate inset-0 absolute tooltip" style="z-index: auto"><div class="bg-yellow-500 inset-0 absolute p-0 rounded-full duration-300 ease-out" style="--tw-bg-opacity: 0.5; --tw-scale-x:1.2; --tw-scale-y:var(--tw-scale-x);"></div></div><span class="relative"><i class="fa fa-font"></i><i class="fa fa-project-diagram"></i> assets</span></a><a class="hover:bg-yellow-600 bg-yellow-500 relative" data-i="4"><div class="out decorate inset-0 absolute tooltip" style="z-index: auto"><div class="bg-yellow-500 inset-0 absolute p-0 rounded-full duration-300 ease-out" style="--tw-bg-opacity: 0.5; --tw-scale-x:1.2; --tw-scale-y:var(--tw-scale-x);"></div></div><span class="relative"><i class="fa fa-file-import"></i> I/O <i class="fa fa-file-export"></i></span></a></div>
+                </div>
+            </div>
+            </div>
+         </div>
+          <div class="sm:-mb-1 sm:ml-8 absolute right-3 sm:bottom-0 bottom-3.5 sm:relative"><section class="pb-1 mb-1 sm:w-auto absolute to-top tooltip right-0" style="--arrow-size:5px; left:unset; transform:none;--arrow-x:70px; --delay:0.2s;">
+    
+<ul class="[&>*]:rounded-inherit bg-white pl-2 pt-2 text-left overflow-y-scroll divide-y-2 divide-gray-200 w-full bottom-full absolute rounded-b-none rounded-2xl border-b-0 border border-gray-300 text-sm [&>*]:p-2 [&>*]:relative" style="max-height:280px" id="evaluatedFlags" onmouseover="let 
+ t=event.target, ctx; t.tagName==='DIV'&&(ctx=document.querySelector(`[data-switchflow-flag=\x22${t.getAttribute('id')}\x22`))&&Abbr.to(ctx,'cL').add('select-f098d3d3')" onmouseout="let 
+ t=event.target, ctx; t.tagName==='DIV'&&(ctx=document.querySelector(`[data-switchflow-flag=\x22${t.getAttribute('id')}\x22`))&&Abbr.to(ctx,'cL').remove('select-f098d3d3')">
+    
+</ul>
+    <pre class="z-1 relative border-t-0 border border-gray-300 rounded-b-2xl bg-gray-100 bg-white p-2 text-sm"><i class="fa fa-exclamation-circle"></i> UI flags present appear above</pre>
+<div class="-mt-2 text-right"><button class="pb-4 pt-6 border-t-0 bg-gray-100 px-4 ripple relative rounded-b-3xl border-dashed border-2 border-yellow-600 p-2.5 whitespace-pre" onclick="setup.classList.add('show'), Abbr.to(setup, [{2:'lEC'}, 'cL']).add('sm:show')">create and manage UI flags</button></div>
+</section>
+
+<button class="rounded-3xl duration-500 ease-out text-yellow-700 p-0" onclick="Abbr.to(this,['pES','cL']).toggle('show')">
+            <div class="mt-0.5 -ml-px absolute h-1/2 w-1/5 rounded-tl-full border-t border-l border-current top-0 left-0"></div>
+            <div class="mt-2 rounded-3xl overflow-hidden absolute inset-0 text-yellow-600 m-1 mb-2">
+            <div style="transform-origin: bottom; animation-duration: 3s; transform-origin: top right" class="w-1/3 top-1/2 origin-center bg-gradient-to-r from-transparent via-current to-tansparent absolute animate-spin p-10"></div></div>
+            <div class="absolute h-1/2 w-1/4 rounded-br-full bottom-0 right-0 border-b border-r border-current mb-0.5 -mr-0.5"></div>
+            <div class="mt-2 m-1 relative inline-block p-4 px-5 rounded-inherit sm:w-36 truncate font-semibold ripple backdrop-filter backdrop-blur-lg ripple text-yellow-700">
+            <i class="fa fa-toggle-on text-3xl sm:text-lg inline-block align-middle mr-2 pointer-events-none"></i><span class="ml-2 tooltip no-hover no-focus no-focus-within slide sm:show sm:relative absolute">UI flags</span></div></button></div>
+        </nav>
+<aside id="setup" class="rounded-3xl xl:left-1/4 xl:right-1/4 sm:bottom-32 sm:top-4 bg-white inset-0 fixed tooltip no-hover no-focus no-focus-within -slide-y" style="z-index:3">
+    <section class="relative sm:p-8 sm:w-5/6 md:w-3/4 xl:w-full sm:rounded-3xl sm:border-2 border-gray-300 m-auto h-full p-5 pt-3">
+<div class="text-center"><button class="sm:p-5 sm:rounded-tr-3xl sm:rounded-bl-3xl sm:border-l top-0 right-0 sm:absolute ripple px-7 border-b border-current p-2 relative z-1 mb-1" onclick="Abbr.to(setup,'cL').remove('show'), Abbr.to(setup, [{2:'lEC'}, 'cL']).remove('sm:show')/*prevent pointer-events interference*/"><i class="text-base fa fa-arrow-left"></i> exit this space</button><h1 class="sm:mt-2 text-center sm:mb-1 mb-2 text-xl font-semibold text-gray-600">UI Feature Flags</h1></div><p class="text-sm mb-2">Conditionally render parts of the UI based on the evaluation of variables used as feature flags created and managed by you</p>
+<section class="flex sm:items-center">
+<div class="sm:z-1 inline-block relative"><aside class="mr-1 slide no-hover no-focus no-focus-within tooltip rounded-l-xl h-full [&>*]:inline-block absolute right-full w-6 border border-r-0 border-current border-dashed top-1/2" style="z-index:auto"><hr class="-m-1 absolute top-0 right-0 p-1 rounded-full bg-black border-0">
+<hr class="-m-1 absolute bottom-0 right-0 p-1 rounded-full bg-black border-0"></aside><button class="z-3 p-0 text-sm border-gray-300 border-2 rounded-xl pl-3 ripple relative" onclick="/*initially only show form when clicked*/Abbr.to(this, ['nES','cL']).remove('no-hover', 'no-focus','no-focus-within'), this['toggle_4c8a'] = function() { this.blur(), this['toggle_4c8a_inited']=!0; let tx=Abbr.to(this,'fC'); tx.data=(/Disc/.test(tx.data)?'C':'Disc')+'onnect provider', page.connectProvider=!page.connectProvider, Abbr.to(this,['pES','cL']).toggle('show')}, this['toggle_4c8a_inited']&&this['toggle_4c8a']()">Connect provider<img src="devcycle.png" class="p-2 ml-2 inline-block sm:w-16 w-14 sm:p-3"></button>
+<main class="tooltip font-mono text-sm inline-block left-0 pt-16 top-0 border-2 border-gray-300 bg-gray-50 -m-1.5 absolute rounded-2xl" style="z-index:1">
+<form class="px-4 p-3" id="providerConfig" onsubmit="event.preventDefault(); let pCls=Abbr.to(this, ['pN','cL']), error, cls=Abbr.to(this, ['pN','pES','fEC','cL']), i, cl=['bg-red-300','bg-blue-200'], out=Abbr.to(this.auth, 'fEC'), loading=Abbr.to(this, [{4:'pN'}, {3:'lEC'}]); 
+Abbr.to(out,'cL').add('out-in-out'), getAuthToken().then((args, token)=>{ ({0:token, 1:error} = args), /*hasten*/out.style.cssText='--dur:2s'; if(!token) return; i=token, /*initially hide tooltip after success*/!Abbr.to(this, ['pN','pES'])['toggle_4c8a_inited']&&pCls.add('no-focus-within', 'no-focus','no-hover'), Abbr.to(loading,'cL').add('show'), /*toggle connect provider*/Abbr.to(this, ['pN','pES'])['toggle_4c8a'](), /*show result*/Abbr.to(this, [{4:'pN'}, 'lEC','cL']).add('show') }).finally(_=>{cls.remove(...[cl]), cls.add(cl[+!!i]), queryProvider(error, Abbr.to(loading,['pN', {2:'pES'}]), Abbr.to(this, [{2:'pN'},'nES']).children[0], Abbr.to(this,['nES','lEC'])) })"><div class="m-0.5 top-0 right-0 absolute "><button class="rounded-full px-2.5 border-current border-2 text-xl font-bold" type="button">?</button><div class="mt-8 sm:mt-10 w-60 rounded-lg right-0 absolute tooltip p-4 bg-white border border-gray-300"><i class="-mb-2 text-3xl right-2 absolute bottom-full fa fa-caret-up"></i>
+    This service doesn't require connecting or authorizing a provider to use feature flags to toggle parts of the UI.
+<hr class="my-2 bulge-center border-0 pt-px">However, since the data is stored in the localStorage, there may be frustrations due to data loss and/or staleness since it is local and isn't accessible from everywhere.
+<br><strong class="text-lg">^_~</strong></div></div>Your DevCycle client ID<input class="rounded-br-lg border-b bg-transparent border-r border-current p-2 outline-none" size="28" name="id" required=""><hr class="-mt-0.5 bulge-left h-0.5 border-0 mb-4">Your DevCycle client secret<input class="rounded-bl-lg bg-transparent border-b border-l border-current p-2 outline-none" size="28" name="secret" type="password" required=""><hr class="-mt-0.5 bulge-right h-0.5 border-0">
+<button class="ripple relative -mt-0.5 rounded-b-xl border-t-0 border border-current p-4 py-5" name="auth"><aside class="top-0.5 bg-blue-200 transform-gpu -translate-x-full absolute inset-0" style="--dur: 10s;" onanimationend="Abbr.to(this,'cL').remove('out-in-out'), this.style.cssText='--dur:10s'"></aside><span class="relative">authorize app</span></button></form><a class="w-full border-b border-current p-1 mb-2 inline-block" href="https://app.devcycle.com/">Visit to obtain the info needed above<i class="ml-1 fa fa-external-link-alt"></i></a>
+
+<p class="font-mono text-xs rounded-b-2xl p-2 bg-blue-100">Refreshes authorization to provider in <code>--:--:--</code></p>
+</main></div>
+<aside class="text-sm sm:relative flex-1">
+    <div class="sm:-bottom-2 overflow-hidden bg-white text-red-500 left-0 absolute p-4 tooltip no-hover no-focus no-focus-within -slide-y" style="z-index:4">The default  value of `` provided for - `one-to-one` is not compatible with its type -`Number` <hr class="bottom-0 bulge-center p-px absolute left-0 right-0 transform-gpu -translate-x-full" style="--dur: 10s;" onanimationend="Abbr.to(this,'cL').remove('out-in-out'), Abbr.to(this,['pN','cL']).remove('show'), this.style.setProperty('--dur', '10s')">
+</div><div class="left-0 right-0 text-right tooltip no-hover no-focus no-focus-within slide-y sm:relative absolute" style="z-index:3;">
+    <div class="mr-2 z-10 inline-block relative inline-block rounded-full align-middle text-yellow-600">    
+    <div class="rounded-inherit overflow-hidden absolute inset-0.5"><div style="transform-origin: bottom; animation-duration: 3s;" class="left-1/3 bg-gradient-to-r from-transparent via-current to-tansparent h-full bottom-1/4 w-1/2 absolute animate-spin"></div></div>
+<button class="bg-near-black px-5 m-2 inline-block p-4 rounded-inherit fa text-2xl relative fa-plug text-current duration-300 ease-out" onclick="let node, txt, _var; if(!(node=Abbr.to(this, {2:'pN'}).querySelector('a.bg-yellow-300'))) return; node=node.textContent.split('\n'), node[0]=(txt=node[0].split('•'))[0].trim(), _var=page.variables[node[0]], document.querySelector('aside>nav>div a').click(), Abbr.to(body,'cL').add('toggle-cursor'), Abbr.to(setup,'cL').remove('show'), Abbr.to(setup, [{2:'lEC'}, 'cL']).remove('sm:show'),/*prevent pointer-events interference*/Abbr.to(evaluatedFlags,['pN','cL']).add('show'), page.selected().then(clicked=>{ ['_id','env'].forEach(p=>/*copy over metadata*/_var[p]=page.meta[p]), page.assignFlag(clicked, node, txt[1].trim()) })">
+</button>
+</div><aside class="left-0 sm:mx-0 mx-2 pb-0.5 sm:left-2 border-gray-300 border rounded-3xl text-left top-0 right-0 absolute bg-yellow-50"><button class="rounded-tl-2xl mb-1 ripple relative rounded-br-2xl border-r px-5 p-4 border-b border-current" onclick="Abbr.to(this, [{2:'pN'}, 'cL']).remove('show')"><i class="fa fa-arrow-left"></i> close</button>
+<h4 class="sm:ml-3 sm:mr-14 mr-10 inline-block ml-1 text-base font-semibold">Variables as feature flags</h4>
+<p class="w-4/5 mb-1 ml-3">Select and/or alter the truthiness of variables below.
+<br>"Plug the variable" on the page when done. (^_~ pun) ↗</p>
+<div class="text-center border-gray-800 border-b flex justify-between mb-2"><span class="flex-1">variable</span><span class="flex-1">expected value</span><span class="flex-1">default</span></div>
+<code id="UIflags" onclick="let t=event.target, ch=[].find.call(this.children, e=>relation(e,t)[0]||e===t); if(!ch&&!page.variables[Abbr.to(ch, ['fEC','tC']).split('•')[0]]) return; [this.querySelector('.bg-yellow-300')||ch, ch].forEach((el,i)=>Abbr.to(el, 'cL')[cLs(i)]('bg-yellow-300'))" class="space-y-1.5 p-1.5 [&>*]:p-2 [&>*]:rounded-inherit rounded-2xl text-xs md:text-sm block [&>*]:relative overflow-y-scroll word-break" style="max-height:160px;"><a href="javascript:void(0)" class="ripple items-end flex space-x-2"><code style="--tw-bg-opacity:0.4" class="sm:px-2 border border-gray-300 py-2 rounded bg-white shadow p-1.5 w-1/3 rounded-xl">togglebot-speed • String</code>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable="">"off"</div>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable=""></div></a><a href="javascript:void(0)" class="ripple items-end flex space-x-2"><code style="--tw-bg-opacity:0.4" class="sm:px-2 border border-gray-300 py-2 rounded bg-white shadow p-1.5 w-1/3 rounded-xl">togglebot-wink • Boolean</code>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable="">true</div>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable=""></div></a><a href="javascript:void(0)" class="ripple items-end flex space-x-2"><code style="--tw-bg-opacity:0.4" class="sm:px-2 border border-gray-300 py-2 rounded bg-white shadow p-1.5 w-1/3 rounded-xl">example-text • String</code>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable="">"step-1"</div>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable=""></div></a><a href="javascript:void(0)" class="ripple items-end flex space-x-2"><code style="--tw-bg-opacity:0.4" class="sm:px-2 border border-gray-300 py-2 rounded bg-white shadow p-1.5 w-1/3 rounded-xl">toggle-dark • JSON</code>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable="">{"status":"on"}</div>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable=""></div></a><a href="javascript:void(0)" class="ripple items-end flex space-x-2"><code style="--tw-bg-opacity:0.4" class="sm:px-2 border border-gray-300 py-2 rounded bg-white shadow p-1.5 w-1/3 rounded-xl">one-to-one • Number</code>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable="">1</div>
+<div class="text-center p-1.5 border-b border-current w-1/3" contenteditable=""></div></a></code></aside>
+</div>
+</aside>
+</section>
+
+<button class="sm:p-5 sm:rounded-none sm:rounded-tl-2xl sm:mt-0 sm:left-0 sm:top-0 sm:absolute relative px-5 font-semibold rounded-xl mt-3 bg-yellow-400 p-3 ripple sm:rounded-br-2xl">create feature flags</button><div class="mt-2.5 mb-5 sm:mb-1 sm:items-center text-sm sm:flex">
+<h2 class="mr-2 text-lg font-semibold text-gray-700">Flags</h2>
+<p class="flex-1">Clicking on a feature flags in the list <span class="sm:inline hidden">created or fetched </span><span class="sm:absolute sm:hidden">opened by the button below </span> refreshes its variables used in this web app</p></div><p class="mb-3 text-sm sm:hidden">Provide the API keys needed above in your 
+<a class="border-b border-current" href="https://www.devcycle.com/" target="_blank">DevCycle</a> account to load and use your variables and features here.</p><button class="relative ripple p-3 rounded-xl border-dashed border-2 border-gray-500 sm:hidden" onclick="Abbr.to(this,['nES','cL']).add('show')">view feature flags created prior</button>
+
+
+
+<section class="sm:right-0 sm:left-0 sm:bottom-0 sm:relative -slide-y tooltip no-hover no-focus no-focus-within sm:top-unset bottom-10 sm:z-1 z-10 top-1/4 left-2 right-2 sm:h-64 absolute mt-16 sm:mt-0 show" style="z-index:auto;"><main class="tooltip no-hover no-focus slide-y pt-2.5 py-2 pl-2 overflow-y-scroll h-full relative rounded-3xl border-gray-300 border-2 bg-gray-50 text-sm space-y-3" onclick="let ctx, chld=slice(this.children), index; t=event.target, ch=chld.find(e=>relation(e, t)[0]||t==e); if(!ch) return; if(!relation(ctx=Abbr.to(ch,{2:'fEC'}), t)[0]) return; index=chld.indexOf(ch), get_writeFlags(Abbr.to(ctx, ['nES', 'tC']).replace(/_id:\s*/,''), Abbr.to(ctx, ['lEC','tC']).trim(), index), [this.querySelector('.bg-blue-50')||ch, ch].forEach((e, i)=>Abbr.to(e,'cL')[cLs(i)]('bg-blue-100'))"><detail open="" class="block cursor-pointer relative hover:bg-blue-50 bg-blue-100"><summary class="border border-current rounded-b-lg rounded-t-3xl cursor-pointer pt-9 sm:pt-12 relative p-3 [&>*]:inline-block">
+<div class="top-0 left-0 sm:absolute relative">
+<div class="rounded-tl-3xl rounded-b-xl border border-current bg-gray-50 absolute top-0 tooltip w-full [&>*]:text-left overflow-hidden" style="z-index:auto" onclick="let t=event.target; if(t.tagName!=='BUTTON') return;
+this.children[0].before(t), Abbr.to(this,['nES','lEC','pS']).data = t.textContent"><button class="hover:bg-yellow-200 w-full font-sans p-2">development</button><button class="hover:bg-red-200 w-full font-sans p-2">staging</button><button class="hover:bg-green-200  font-sans w-full p-2">production</button>
+</div><a class="w-40 rounded-l-2xl inline-block ripple relative bg-gray-50 rounded-b-xl border border-current text-sm p-2 [&>*]:inline-block [&>*]:p-2 [&>*]:align-middle" href="javascript:void(0)"><i class="border-current rounded-full border bg-yellow-200"></i><i class="-mx-2.5 border-current rounded-full border bg-red-200"></i><i class="border-current rounded-full border bg-green-200 mr-1"></i>development<i class="mt-1 float-right align-middle inline-block ml-2 fa fa-caret-down" style="padding:0px;"></i></a>
+</div>
+<code class="border-current border-l border-b px-3 p-1 right-0 sm:w-auto w-full rounded-tl-3xl sm:rounded-tl-none absolute top-0">_id: 67465514473456cfff640346</code>
+<code>Project name • 0_0</code><hr class="mx-5 border-2 p-0.5 border-current rounded-full"><code><i class="fa fa-clock"></i> createdAt • 2024-11-26T23:09:08.430Z</code></summary><details class="border-l border-r border-current px-2"><summary class="cursor-pointer">
+Feature: <code>toggle-dark • toggle-dark</code></summary>
+<ul class="space-y-1 list-disc list-inside"><li>Variation: <code>Variation On</code><code class="p-2 inline-block">toggle-dark=status=on, one-to-one=1</code></li><li>Variation: <code>Variation Off</code><code class="p-2 inline-block">toggle-dark=status=off</code></li></ul></details>
+<details class="mt-1 px-2 pb-2 border border-current rounded-b-xl border-t-0"><summary class="cursor-pointer">Variables (2)</summary><span class="px-2 align-middle inline-block p-1 border-2 border-gray-500 rounded-xl border-dashed" style="--tw-bg-opacity:0.9;">active</span>
+<code class="p-2 inline-block">toggle-dark • JSON</code><hr class="align-middle inline-block border-0 p-px bg-current rounded-full py-3">
+description • <span class="p-2"></span><hr class="my-1 border-gray-300 shadow"><span class="px-2 align-middle inline-block p-1 border-2 border-gray-500 rounded-xl border-dashed" style="--tw-bg-opacity:0.9;">active</span>
+<code class="p-2 inline-block">one-to-one • Number</code><hr class="align-middle inline-block border-0 p-px bg-current rounded-full py-3">
+description • <span class="p-2"></span></details><details class="border-l border-r border-current px-2"><summary class="cursor-pointer">
+Feature: <code>Hello Togglebot - Example Feature • hello-togglebot</code></summary>
+<ul class="space-y-1 list-disc list-inside"><li>Variation: <code>Base Variation</code><code class="p-2 inline-block">togglebot-speed=off, togglebot-wink=true, example-text=step-1</code></li><li>Variation: <code>Spin Variation</code><code class="p-2 inline-block">togglebot-speed=slow, togglebot-wink=false, example-text=step-2</code></li><li>Variation: <code>Example</code><code class="p-2 inline-block">togglebot-speed=off-axis, togglebot-wink=true, example-text=step-1</code></li></ul></details>
+<details class="mt-1 px-2 pb-2 border border-current rounded-b-xl border-t-0"><summary class="cursor-pointer">Variables (3)</summary><span class="px-2 align-middle inline-block p-1 border-2 border-gray-500 rounded-xl border-dashed" style="--tw-bg-opacity:0.9;">active</span>
+<code class="p-2 inline-block">togglebot-speed • String</code><hr class="align-middle inline-block border-0 p-px bg-current rounded-full py-3">
+description • <span class="p-2">Togglebot speed values recognized by the example app</span><hr class="my-1 border-gray-300 shadow"><span class="px-2 align-middle inline-block p-1 border-2 border-gray-500 rounded-xl border-dashed" style="--tw-bg-opacity:0.9;">active</span>
+<code class="p-2 inline-block">example-text • String</code><hr class="align-middle inline-block border-0 p-px bg-current rounded-full py-3">
+description • <span class="p-2">Example text values recognized by the example app</span><hr class="my-1 border-gray-300 shadow"><span class="px-2 align-middle inline-block p-1 border-2 border-gray-500 rounded-xl border-dashed" style="--tw-bg-opacity:0.9;">active</span>
+<code class="p-2 inline-block">togglebot-wink • Boolean</code><hr class="align-middle inline-block border-0 p-px bg-current rounded-full py-3">
+description • <span class="p-2"></span></details></detail></main><button class="-mb-2.5 right-6 bottom-full sm:pointer-events-none sm:invisible bg-white px-6 p-3.5 rounded-t-2xl z-1 absolute fa-times fa border-2 border-gray-500 ripple" onclick="Abbr.to(this,['pN','cL']).remove('show')" style="border-color: cyan maroon aliceblue black;"></button>
+<aside class="pb-2 sm:pt-0 pt-3 rounded-3xl border-gray-400 border bg-white text-center px-3 text-sm flex items-center justify-center absolute inset-1 flex-col"><p class="sm:mt-2">No feature flags either created or found on the page</p>
+<aside class="relative mt-2">
+<section class="h-32 text-left rounded-xl border border-current px-4"><div class="p-0.5 border-t-0 text-gray-900 border-current rounded-b-xl border items-center [&>*]:inline-block flex"><h3 class="-mt-px border-t-0 pt-2.5 border border-current rounded-b-xl flex-1 w-3/4 p-1.5 font-semibold text-gray-900 inline-block" contenteditable="">no-flag-name</h3><i class="mx-2 text-2xl fa fa-toggle-off align-middle"></i></div><div class="rounded-lg w-full inline-block p-2 border mt-1.5 border-current" contenteditable="">Brief description for flag</div><button class="mt-1.5 -top-px ripple float-left relative bg-gray-50 rounded-t-xl border border-current text-sm p-2 mt-s1.5 border-b-0 [&>*]:inline-block [&>*]:p-2 [&>*]:align-middle"><i class="border-current rounded-full border bg-yellow-200"></i><i class="-mx-2 border-current rounded-full border bg-red-200"></i><i class="border-current rounded-full border bg-green-200"></i> development</button></section><button class="ripple relative text-right w-full p-2.5"><i class="fa fa-plus"></i> create</button>
+</aside><p class="mt-1 tooltip no-hover no-focus no-focus-within slide-y" style="z-index:auto;"><i class="mr-1 align-middle inline-block dots-6"></i>Building the UI <span class="base:relative absolute base:show tooltip no-hover no-focus no-focus-within">and client SDKs for all environments</span> with the response from the provider's API...</p></aside></section>
+</section></aside>
+    
+<datalist id="domMethods"><option>after</option><option>append</option><option>appendChild</option><option>before</option><option>remove</option><option>removeChild</option><option>replaceWith</option></datalist>
+<script>
+let body, fonts=[], googleFonts=[], fontsList=crE('div', [], []);
+fetch('fonts.txt').then(res=>res.text()).then(txt=>{
+  googleFonts = txt.split('\\n');
+  if(debug) return;
+  N(26, 64).map((ch, opts)=>{
+    ch=String.fromCharCode(ch);
+    if(opts = googleFonts.filter(e=>e.charAt(0)==ch).map(opt=>`<option value="${opt}">${opt}</option>`).join('')) fontsList.appendChild(crE('datalist', [], {id:`${ch}_fonts`, innerHTML:opts}));
+  })
+});
+
+let bodyCls, Ev_onclick = Ev('onclick'),
+heap/*a variable that is initiallized with quickly changing values. It is for temporarily storing values without needing to create variables*/, clones = [], page = {
+  flags: [1],
+  asText: function(node, fn, txt='', _txt, cb, val) {
+    (cb=(nodes, flag, bool)=>slice(nodes).forEach((ch, res)=>{
+      res = ch.data || ch.value || '',
+      txt += bool = fn&&fn.call ? fn(ch) : res,
+      !bool&&ch.childNodes.length&&cb(ch.childNodes, !0)
+    }))(node.childNodes),
+    _txt = node.innerText,
+    val = _txt.length>txt.length ? txt : txt;
+    return txt;
+  },
+};
+
+w_Ev('mousemove')(function(ev) {
+    // let { pageX, pageY } = ev, pad=30;
+    // pageX+=5, pageY+=20,
+    // (pageX+pad<innerWidth)&&(pageY+pad<innerHeight)
+    // &&Abbr.to(flagMouse,'cL').contains('show')
+    // &&(requestAnimationFrame(_=>{
+    //     flagMouse.style.setProperty('--x', `${pageX}px`),
+    //     flagMouse.style.setProperty('--y', `${pageY}px`)
+    // }))
+}),
+w_Ev_dom(function() {
+  body = document.body, bodyCls = body.classList,
+  animations.addRippleAnimations()
+  clones.push(document.querySelector('body>aside>nav>aside>section pre').cloneNode(!0))
+}),
+w_Ev('keyup')(function(ev) {
+  let { key, code, keyCode } = ev;
+  if(/escape/i.test(key||code)) bodyCls.remove('select-f098d3d3'),
+    /*.map is used below to avoid repetitions. Now that that is out of the way,
+      the code below is a UX strategy to take the user back to the section for the UI flags should the user
+      press 'ESC' either on a whim or by accident when choosing an element to flag
+    */
+    ['contains','remove'].map(m=>Abbr.to(body,'cL')[m]('toggle-cursor'))[0]&&Abbr.to(evaluatedFlags,['pN',{2:'lEC'}]).click();
+}),
+(page.selected =_=>new Promise(res=>{
+  w_Ev(Ev_onclick)(function(ev) {
+    let tgt = ev.target, { designMode } = document;
+    if(switchFlow==tgt||relation(switchFlow, tgt)[0]) return;
+    /* initial select code*/
+    if(bodyCls?.contains('select-f098d3d3')) {
+      if(Abbr.to(body,'cL').contains('toggle-cursor')) res(tgt), Abbr.to(body,'cL').remove('toggle-cursor');
+      else page.traversing?page.node=tgt:page._$0 = page.$0 = tgt, res();
+      /* code they both have in common goes here */
+      bodyCls.remove('select-f098d3d3')
+    };
+    /*no cascade here to allow directly editing the element that was just selected*/
+    if(designMode === 'on') console.log('::TARGET::', tgt);
+    
+  })
+}))(/*INIT: called once to register click event on window object*/);
+
+
+function store(prop, el, attr) {
+  if(!(el=page[prop])) return;
+  let stored, { attributes, nodeName, innerHTML, data } = el, msg='', index, attrs, nodes = parse(localStorage.getItem(key='__nodes_4087eef5e5ea')||'""')||[],
+  /*getAttribute is invoked in the manner below to silently ignore errors when initing store.get(...) by calling store once on page load*/
+  ind = el.getAttribute?.call(el, attr='data-storageIndex');
+  /*using nodeName because it exist on all nodes text or otherwise*/
+  if(nodeName)  {
+    attributes?.length&&(attrs = {}, [].forEach.call(attributes, attr=>attrs[attr.name] = attr.value)),
+    stored = { ...(data&&{data}), ...(attrs&&{attrs}), ...(innerHTML&&{innerHTML}) },
+    /*double equality because null == void 0 is true */
+    ind==void 0
+    ? el.setAttribute(attr, (index=nodes.push(stored)-1/*reduce by one due to nodes.push's return value */, msg=`Storing the metadata for the node page.${prop} for the first time at index: ${index}`, index))
+    : msg = `Element exists in storage, updating its metadata stored at index ${(nodes[+ind] = stored, ind)}`,
+    console.log('::NODE::', nodes), localStorage.setItem(key, JSON.stringify(nodes));
+    return msg;
+  }
+}
+
+function parse(str) {
+    str = str.replace(/'/g, '"');
+    let res;
+    try {
+        res = JSON.parse(str)
+    } catch(err) {
+        console.log(err)
+    }
+    return res;
+}
+</script>
+<script src="js/flags.js"></script>
+    </aside>
+</body></html>

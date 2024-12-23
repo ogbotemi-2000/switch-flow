@@ -1,3 +1,14 @@
+#needless
+*.txt
+
+#left unused or kept
+config.json
+src
+webfonts
+utils
+api
+
+
 # Logs
 logs
 *.log
