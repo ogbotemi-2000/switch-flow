@@ -57,9 +57,9 @@ Well *SwitchFlow* does that. Oh, did I mention that it also supports creating yo
 + Creating and customizing a layout grid to guide designs
 + Preview and download of page with flags evaluated or saving as is.
 
-### Features not yet for use
+### Features not yet available for use
 + Serializing nodes to `localStorage` for retrieval and use in multiple design pages.
-+ Custom feature flags for toggling the UI
++ Creation and use of custom feature flags for toggling the UI. You can use DevCycle as an alternative
 
 
 That is the end, I hope you enjoy using this software.
