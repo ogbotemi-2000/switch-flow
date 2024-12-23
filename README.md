@@ -5,7 +5,7 @@ It sports an excellent idea of directly implementing *UI feature flags* on the U
 > While it is more developer friendly, regular users can using its UI feature flagging functionality with relative ease.
 
 ### Feature flags on the UI
-It supports connecting a DevCycle account using its `client` and `client` secret keys through the API and retrieving all variables defined in each
+It supports connecting a DevCycle account using its `client` and `client secret` keys through the API and retrieving all variables defined in each
 + Feature: along with its variations if existent
 + Project: along with each of its environments - _staging, development, production_
 
